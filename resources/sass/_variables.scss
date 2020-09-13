@@ -1,0 +1,118 @@
+// Body
+$body-bg: #f8fafc;
+// Typography
+$font-family-sans-serif: "Nunito",
+sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+// Colors
+$blue: #3880bb;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #3b9beb;
+#Menu a:hover {
+    text-decoration: none;
+    color: $cyan;
+}
+
+#MenuHover:hover {
+    text-decoration: none;
+    color: $cyan;
+}
+
+#Menu {
+    cursor: default;
+}
+
+body {
+    font-family: "Calibri", Courier, monospace;
+}
+
+#MyProjectsBtn {
+    font-weight: 500;
+}
+
+#Menu button:focus {
+    outline: none !important;
+    outline-offset: none !important;
+}
+
+#CollapsedMenuLinks:active,
+#CollapsedMenuLinks:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 100px) {
+    #MyProjectsBtn {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 500px) {
+    #MyProjectsBtn {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 100px) {
+    #Menu h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 900px) {
+    #Menu h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 100px) {
+    #MenuIntroduction {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+}
+
+@media (min-width: 1280px) {
+    #MenuIntroduction {
+        padding-left: 35px;
+        padding-right: 0px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+}
+
+#Menu #MenuIntroduction {
+    border-radius: 20px;
+    max-width: 700px;
+    min-width: 315px;
+}
+
+#TextIntroduction {
+    color: "white";
+}
+
+#Projects a {
+    text-decoration: none;
+}
+
+#Projects h1 {
+    padding-bottom: 20px;
+}
+
+#bottomGrid {
+    margin-top: 19px;
+}
+
+#Menu .CVButton {
+    font-weight: bold;
+    color: "white";
+}
